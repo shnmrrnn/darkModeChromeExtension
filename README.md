@@ -6,11 +6,11 @@ Built by shnmrrnn & ChatGPT.
 
 To use: 
 
-- Navigate to chrome://extensions/
+- Open Chrome and navigate to chrome://extensions/
 
-- Select the option Load Unpacked
+- Enable "Developer mode" by toggling the switch in the top right corner
 
-- Load the files from your chosen folder
+- Click the "Load unpacked" button and select the folder containing your extension files
 
 - Select extensions from Google Chrome and select 'Dark Mode'
 
