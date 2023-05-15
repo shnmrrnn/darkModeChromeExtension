@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.1/spectrum.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.1/spectrum.min.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body class="p-3">
+  <h1>My First Extension</h1>
+  <div class="mb-3">
+    <label for="colorPicker" class="form-label">Background Color</label>
+    <input type='text' class="form-control" id='colorPicker' />
+  </div>
+  <button id="changeColor" class="btn btn-primary mb-3">Change background color</button>
+  <div class="mb-3">
+    <label for="fontSize" class="form-label">Font Size</label>
+    <input type="number" class="form-control" id="fontSize" min="8" max="48" value="16">
+  </div>
+  <button id="changeFontSize" class="btn btn-primary">Change font size</button>
+</body>
+</html>
